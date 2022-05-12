@@ -1,0 +1,123 @@
+.buttons{
+  width: 130px;
+  background-color: #f1f1f1;
+  border: none;
+  padding: 10px 10px;
+  margin-top: 10px;
+  color: #555;
+  font-size: 14px;
+}
+
+
+.hyperlinks{
+  text-align: right;
+  font-size: 12px;
+}
+
+.forms{
+  text-align: center;
+  margin-top: 1%;
+}
+
+.searchbars{
+  width:32%;
+  padding: 12px 3%;
+  border: solid 1px;
+  border-color: #ddd;
+  border-radius: 40px;
+  background-color: white;
+  font-size: 17px;
+}
+
+input[type=text]:hover{
+  box-shadow: 1px 1px 2px #999, 0 0 2px #999;
+}
+
+input[value ~="Google" ]:hover{
+  box-shadow: 1px 1px 2px #999, 0 0 2px #999;
+  cursor: pointer;
+}
+
+input[value ="I'm Feeling Lucky" ]:hover{
+  box-shadow: 1px 1px 2px #999, 0 0 2px #999;
+  cursor: pointer;
+}
+
+
+
+.googleLogo{
+  margin-left: 40%;
+  margin-top: 8%;
+  width: 300px;
+}
+
+.googleLogoSmall{
+  width: 110px;
+  padding-left: 9px;
+  padding-top: 10px;
+  padding-bottom: 7px;
+}
+
+#imageSearchButton{
+  width: 160px;
+}
+
+.upperstrip{
+background-color: #f0f0f0;
+margin-left: -8px;
+margin-top: -8px;
+margin-right: -8px;
+}
+
+.AdvancedSearch{
+  color: rgb(90%, 5%, 5%);
+  font-family: arial;
+  font-size: 19px;
+  padding-left: 35px;
+}
+
+.line{
+  width:100%;
+  height:1px;
+  margin-top: 28px;
+  margin-left: -20px;
+  padding-right: 25px;
+  background-color: #eee;
+}
+
+.FindPagesWith{
+  margin-left: 35px;
+  margin-top: 50px;
+  font-family: arial;
+}
+
+.advancedsearchforms{
+  text-align: left;
+  margin-top: 45px;
+  margin-left: 40px;
+  font-family: arial;
+  color:#555;
+  font-size: 12.5px;
+}
+
+.advancedSearchbars{
+  width: 560px;
+  font-family: arial;
+  padding: 6px;
+  margin-left: 35px;
+  border: solid 1px #ccc;
+}
+
+.advancedSearchbuttons{
+  width: 140px;
+  background-color: #4d90fe;
+  border: none;
+  padding: 0px 12px;
+  height: 30px;
+  margin-top: 10px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 650px;
+  margin-top: 50px;
+}
